@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Center from '../components/Center'
 import Header from '../components/Header'
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Center />
     </div>
   )
 }
