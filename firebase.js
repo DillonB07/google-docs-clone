@@ -2,9 +2,9 @@ import firebase from 'firebase'
 
 const firebaseConfig = {
   apiKey: process.env.apiKey,
-  authDomain: 'dillonb07-studio.firebaseapp.com',
-  projectId: 'dillonb07-studio',
-  storageBucket: 'dillonb07-studio.appspot.com',
+  authDomain: 'perfect-transit-344619.firebaseapp.com',
+  projectId: 'perfect-transit-344619',
+  storageBucket: 'perfect-transit-344619.appspot.com',
   messagingSenderId: process.env.messagingSenderId,
   appId: process.env.appId,
 }
