@@ -1,6 +1,7 @@
 import Button from '@material-tailwind/react/Button'
 import Icon from '@material-tailwind/react/Icon'
 import { getSession, useSession } from 'next-auth/client'
+import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { useDocumentOnce } from 'react-firebase-hooks/firestore'
 import Login from '../../components/Login'
@@ -26,6 +27,9 @@ function Document() {
 
   return (
     <div>
+      <Head>
+        <title>{snapshot?.data().filename} - Google Docs</title>
+      </Head>
       <header className="flex items-center justify-between p-3 pb-1">
         <span className="cursor-pointer" onClick={() => router.push('/')}>
           <Icon name="description" size="5xl" color="blue" />
