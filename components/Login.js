@@ -1,10 +1,14 @@
 import Button from '@material-tailwind/react/Button'
 import { signIn } from 'next-auth/client'
 import Image from 'next/image'
+import Head from 'next/head'
 
 function Login() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
+      <Head>
+        <title>Log In</title>
+      </Head>
       <Image
         src="https://links.papareact.com/1ui"
         height="300"
