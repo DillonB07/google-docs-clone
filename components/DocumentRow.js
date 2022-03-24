@@ -20,7 +20,7 @@ function DocumentRow({ id, fileName, date }) {
         rounded={true}
         iconOnly={true}
         ripple="dark"
-        className="border-0"
+        className="border-0 !border-transparent"
       >
         <Icon name="more_vert" size="3xl" />
       </Button>
